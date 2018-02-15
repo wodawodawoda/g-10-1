@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+.animal-card {
+	display:  flex;
+	flex-flow: column nowrap;
+	padding: 15px;
+	border: 1px solid #d3d3d3;
+	width: 320px;
+}
+.card-title {
+	margin: 10px 0px 25px;
+}
+.info-section {
+	padding: 0 10px 10px;
+	margin-top: 20px;
+	border: 1px solid #d3d3d3;
+}
+.int-fact {
+	font-size: 13px;
+	font-style: italic;
+}
+.list-info {
+	font-size: 15px;
+	padding-left:  0;
+	list-style: none;
+	text-transform: capitalize;
+}
+.list-info span {
+	font-weight: 900;
+}
+.description {
+	font-size: 14px;
+}
